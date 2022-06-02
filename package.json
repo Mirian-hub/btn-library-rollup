@@ -1,0 +1,30 @@
+{
+  "name": "library-app-rollup",
+  "version": "0.0.1",
+  "description": " A react component library using Rollup for bundling ",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Mirian",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.10",
+    "@types/styled-components": "^5.1.25",
+    "react": "^18.1.0",
+    "rollup": "^2.75.5",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-typescript2": "^0.32.0",
+    "styled-components": "^5.3.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
