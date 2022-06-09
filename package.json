@@ -1,6 +1,6 @@
 {
   "name": "@uni_btn/button-rollup",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": " A react component library using Rollup for bundling ",
   "scripts": {
     "rollup": "rollup -c"

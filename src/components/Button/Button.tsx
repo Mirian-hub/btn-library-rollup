@@ -9,7 +9,7 @@ const Button: FC<ButtonProps> = ({text, primary,
     color,
     onClick}) => {
         const [count, setCount] = useState();
-      return <button className={`up-button` + disabled && 'disabled' }>{text}</button>;
+      return <button className={`${!primary && 'up-button-secondary'}`}>{text}</button>;
 };
 
 export default Button;
