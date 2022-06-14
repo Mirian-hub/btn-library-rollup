@@ -1,7 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
-import styled from "styled-components";
-import "./button.sass";
 import { ButtonProps } from "./Button.types";
+import './Button.sass'
 
 const Button: FC<ButtonProps> = ({text, primary,
     disabled,
